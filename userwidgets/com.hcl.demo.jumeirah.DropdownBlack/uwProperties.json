@@ -1,0 +1,112 @@
+{
+    "classname": "DropdownBlack",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "value": "Value 1"
+                            },
+                            {
+                                "value": "Value 2"
+                            },
+                            {
+                                "value": "Value 3"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "value",
+                                "columnHeaderType": "text",
+                                "columnID": "value",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "f732a02fa93a470a8a790b1b00db27ca"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "cdd43f22261d426b97bdd62069958c49",
+                    "originalPropertyKey": "options",
+                    "propertyIndex": 3,
+                    "propertyKey": "options",
+                    "pw": {
+                        "displayName": "options",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "ca3fb37c05e84566b1d4501e89b875b3",
+                    "type": "data grid",
+                    "value": 1
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a68b5f93012e4c90bf91791d966718ce",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d6897cf785714c23b58cb4e982ae05c8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c40305e303e3468a87f21d14c7c2b020",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c1163f765bc649398f571f9a2f53ec7b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

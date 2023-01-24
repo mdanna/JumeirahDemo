@@ -1,0 +1,127 @@
+{
+    "classname": "PopupAlert",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h3e7d6f24a0f47dc952ef73f291cdb1b",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i831e3a928884358bee415b9706b34b9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "frmMain",
+                    "group": "General",
+                    "kuid": "caf2e0c7220a4fefbe536439588963c2",
+                    "originalPropertyKey": "targetForm",
+                    "propertyIndex": 4,
+                    "propertyKey": "targetForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "targetForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i831e3a928884358bee415b9706b34b9",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa7e63a6231040eaa601c12dbd27c936",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "serviceType",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cd7e8510eb7547e5a243159d8f295989"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a88bde2c5fac4d048fc60185bf073aa9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "requestNo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "info",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblInfo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fc4691f0d09c49828e4fbd90f3848935"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "Back to Home",
+                    "group": "General",
+                    "kuid": "c5199712803c4981b665baadb98013cb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "buttonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "buttonText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "buttonBack",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "aa965bc656be4fe6b2405fae9215cbe2"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

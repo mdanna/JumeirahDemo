@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8dea4771a6640b0bdea298c5eb77563",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "label": "NOC Collection Through *",
+        "options": {
+            "data": [
+                {
+                    "value": "Email"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "value",
+                    "columnHeaderType": "text",
+                    "columnID": "value",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f732a02fa93a470a8a790b1b00db27ca"
+                }
+            ]
+        },
+        "text": "Email"
+    },
+    "id": "dropdownCollection",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i7acd77a280b44cbb8034f2b465d8b0d",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDelivery",
+    "pf": "frmNOC",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "ca3fb37c05e84566b1d4501e89b875b3",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

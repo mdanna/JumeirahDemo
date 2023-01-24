@@ -1,0 +1,96 @@
+{
+    "classname": "SelectionList",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f13fd3d732bd4aea97357c173a7a331e",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a260762170e64c47b60e3cfdf202892a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Value 1",
+                    "group": "General",
+                    "kuid": "gc64d468b6b5409c86c32c1c81e9c39d",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 1,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a260762170e64c47b60e3cfdf202892a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f0c9416a851f4fe887812f94c1eed9ae",
+                    "originalPropertyKey": "values",
+                    "propertyIndex": 2,
+                    "propertyKey": "values",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "values",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a260762170e64c47b60e3cfdf202892a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e1f03f6775c54930b2d899826ef46ab9",
+                    "originalPropertyKey": "selectionListId",
+                    "propertyIndex": 3,
+                    "propertyKey": "selectionListId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selectionListId",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a260762170e64c47b60e3cfdf202892a",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

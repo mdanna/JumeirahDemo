@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8dea4771a6640b0bdea298c5eb77563",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "label": "Required Works or Access Permits Reqs",
+        "placeholder": "Specify in details the required works or access permits requirements"
+    },
+    "id": "textareaReqs",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e152e960089b44a59c9118919de49b0f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDetails",
+    "pf": "frmNOC",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "g6fd9f2e39b64e17819f439873c56e95",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

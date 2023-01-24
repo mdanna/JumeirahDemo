@@ -1,0 +1,108 @@
+{
+    "classname": "TabBarElement",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "j26fab5538454928b43351ed072e6789",
+                    "originalPropertyKey": "selected",
+                    "propertyIndex": 4,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "e468fbfb4c114363b7af0736fd27ff51",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i605fca0cef143188adec2f7faf9482f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTabBarElement",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "h6cc34d53c4f4a5ea5fcd0dc9b57c1d8"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "sd42b2f366bf4580a894c9d93d6812e5",
+                    "group": "General",
+                    "kuid": "gff4f644842749a69c9422bcd6e665df",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "skinLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinLabel",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTabBarElement",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "h6cc34d53c4f4a5ea5fcd0dc9b57c1d8"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "sa321ae0d059447d9cc8ef6b9a3e1d10",
+                    "group": "General",
+                    "kuid": "caa007fb6f3f42468f01f9a58a9a345d",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "skinBar",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinBar",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxBar",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h772194c30504b9aace5ed4d4d71c0a1"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

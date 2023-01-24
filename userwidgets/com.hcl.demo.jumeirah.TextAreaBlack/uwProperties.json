@@ -1,0 +1,114 @@
+{
+    "classname": "TextAreaBlack",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bc3dc732a8c346488af0801bdc89aee4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d72a3dc829de44ef9b786a182505c4ce"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b2b956ff682c4791a1472299e3731423",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txaTextArea",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "e09ecd6dc62048c88a117310d3ca2fec"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j4dcb41d49a84f7a8978686c2f79fa4f",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 4,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "placeholder",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txaTextArea",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "e09ecd6dc62048c88a117310d3ca2fec"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ddfc8b4e07ea4b89973c90fbe9600b7d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "disabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "disabled",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxDisable",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c96dcfecf6e6419683f224eb82d9a74d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

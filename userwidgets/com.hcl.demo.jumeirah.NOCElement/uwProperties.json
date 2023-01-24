@@ -1,0 +1,154 @@
+{
+    "classname": "NOCElement",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d24b2326bd834165be1107845ee5a14e",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickDelete",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickDelete",
+                        "srcWidget": "flxIconDelete",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b774313fa68e4342a2a3764d2ef55513",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g80687319c454a9fb55fe04e316bcdf8",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClickElement",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickElement",
+                        "srcWidget": "flxContent",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ce7afb3b52614a889c43e914b0152181",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Pending",
+                    "group": "General",
+                    "kuid": "d282b293256b40c9b4d3e0272d874852",
+                    "originalPropertyKey": "status",
+                    "propertyIndex": 4,
+                    "propertyKey": "status",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "status",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "a8af4054e8f445bba368ff6428884f53",
+                    "type": "list selector",
+                    "value": [
+                        "Pending",
+                        "Approved",
+                        "Rejected"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c430673cfe0e4976a824c54d7d891e05",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "serviceType",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "serviceType",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblServiceType",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a2893d3dbcb6461a884ac5a26a5dccd9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9d1d79d406a4848a32a13134caba8bf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "requestNo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "requestNo",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRequestNo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b9c2fe13dda54057913f3129b61bb4e0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h14e51f0dfaa41468c89423d2b510449",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "lastUpdated",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lastUpdated",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLastUpdated",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c637bae5cde744c49a1497845398620e"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.jumeirah",
+    "version": "1.0.0"
+}

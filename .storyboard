@@ -1,0 +1,34 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "c217ba84e64c4dd384383feeaa84c3c2",
+                    "formName": "frmLogin",
+                    "isStartupForm": true,
+                    "key": "c217ba84e64c4dd384383feeaa84c3c2",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d66d0221481a4cdd94b740aba970f46d",
+                    "formName": "frmMain",
+                    "isStartupForm": false,
+                    "key": "d66d0221481a4cdd94b740aba970f46d",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d0d0043f3624404b8d2eb70eb142b8cc",
+                    "formName": "frmNOC",
+                    "isStartupForm": false,
+                    "key": "d0d0043f3624404b8d2eb70eb142b8cc",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}
