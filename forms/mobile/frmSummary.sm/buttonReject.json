@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s3ec7551983346d1823a0e08e5e85ebd",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "48%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "skinText": "s42b2fc6d5aa4f3bb1ca722992ae9390",
+        "text": "Reject"
+    },
+    "id": "buttonReject",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b933b507754a4ba3bc36d12c55992422",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxButtonsAdmin",
+    "pf": "frmSummary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "fab1ae6955884ae0957959f8fa26cca6",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

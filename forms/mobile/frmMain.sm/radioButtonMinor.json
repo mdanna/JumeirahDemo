@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e77fb048d14facb2e03a6230bdc7e4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "160dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "family": "filterByServiceType",
+        "iconWidth": {
+            "Default": {
+                "type": "string",
+                "value": "30dp"
+            }
+        },
+        "label": "Minor Works Permits",
+        "skinIcon": "s7b68be971544fd19a5a1aa79fc33050",
+        "skinLabel": "s18f42bd0e544799a5fd824d670d4212"
+    },
+    "id": "radioButtonMinor",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i4c92105a70149dbbdad884d112088bc",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxFilterByServiceType2",
+    "pf": "frmMain",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "f0f1577ceab6420086d5b834e0ace071",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

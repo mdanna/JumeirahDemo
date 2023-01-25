@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e77fb048d14facb2e03a6230bdc7e4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "options": {
+            "data": [
+                {
+                    "value": "avery.donovan@gmail.com"
+                },
+                {
+                    "value": "linda.brown@hotmail.com"
+                },
+                {
+                    "value": "tim.connor@jumeirah.com"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "value",
+                    "columnHeaderType": "text",
+                    "columnID": "value",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f732a02fa93a470a8a790b1b00db27ca"
+                }
+            ]
+        },
+        "text": "avery.donovan@gmail.com"
+    },
+    "id": "dropdownUser",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g0ce88fa508347fcbb3fa0585578b617",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "be5a0f57b04b40deab23d6364e3ef067",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
